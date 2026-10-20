@@ -30,6 +30,17 @@ nav,.nav-contact,.button,.text-link,.social-links{font-size:16px}
 .motion-toggle:hover{color:var(--accent);border-color:var(--accent)}
 
 /* Soft ambient movement, entrance motion, and responsive hover feedback. */
+.project-gallery{border:1px solid var(--line);background:#111}
+.gallery-preview{display:block;position:relative;background:#161219}
+.gallery-preview>img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}
+.gallery-expand{position:absolute;right:10px;bottom:10px;padding:9px 12px;background:#0a0a0ae8;color:#fff;font-size:12px}
+.gallery-choices{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px}
+.gallery-choice{display:grid;grid-template-columns:65px 1fr;align-items:center;gap:10px;border:1px solid var(--line);padding:8px;background:#161616}
+.gallery-choice img{width:65px;height:42px;object-fit:contain;background:#fff}
+.gallery-choice span{font-size:12px;line-height:1.5}
+.gallery-choice.is-selected{border-color:var(--accent);background:#ffbdf70b}
+.gallery-choice:hover{border-color:var(--accent)}
+@media(max-width:800px){.gallery-choice{grid-template-columns:1fr;gap:7px}.gallery-choice img{width:100%;height:auto;aspect-ratio:16/9}.gallery-expand{font-size:11px;padding:7px 9px}}
 .toolkit-title{font-family:Georgia,serif;font-size:clamp(36px,4.5vw,52px);font-weight:700;letter-spacing:-1.5px;margin:35px 0 48px}
 .toolkit-title span{color:var(--accent)}
 .tool-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:22px}
