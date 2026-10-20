@@ -30,6 +30,14 @@ nav,.nav-contact,.button,.text-link,.social-links{font-size:16px}
 .motion-toggle:hover{color:var(--accent);border-color:var(--accent)}
 
 /* Soft ambient movement, entrance motion, and responsive hover feedback. */
+.portrait-photo{margin:0;min-height:0;aspect-ratio:3/4;align-self:start;isolation:isolate;background:#0a0a0a;border:1px solid #ffbdf726}
+.portrait-photo>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 38%}
+.portrait-photo::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse at 0% 20%,#9c51b655,transparent 42%),radial-gradient(ellipse at 100% 75%,#ffbdf72b,transparent 38%);mix-blend-mode:screen}
+.portrait-photo::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;background:linear-gradient(0deg,#0a0a0a 0%,#0a0a0ac4 8%,transparent 32%),linear-gradient(90deg,#0a0a0a55,transparent 16%,transparent 84%,#0a0a0a55)}
+.portrait-caption{position:absolute;z-index:3;bottom:25px;left:28px;right:28px;border-left:2px solid var(--accent);padding-left:15px;display:flex;flex-direction:column;gap:6px}
+.portrait-caption>span{font-family:Georgia,serif;font-size:32px;color:var(--accent)}
+.portrait-caption>small{font-size:13px;font-weight:400;letter-spacing:1px;color:var(--ink)}
+@media(max-width:560px){.portrait-photo{width:100%;max-width:430px;justify-self:center}.portrait-caption{bottom:22px;left:22px}}
 .app-store-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
 .app-store-links .button{gap:20px;padding:13px 18px;font-size:15px}
 .project-gallery{border:1px solid var(--line);background:#111}

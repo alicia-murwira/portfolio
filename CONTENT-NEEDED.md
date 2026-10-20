@@ -2,7 +2,6 @@
 
 The supplied biography, technical skills, projects, experience, and contact links are now included.
 
-- Portrait photo (optional).
 - EventMap services directory screenshot (optional). Homepage and event discovery screenshots have been added.
 - Mainteco mobile application screenshots (optional). The supplied web sign-in screenshot has been added.
 - CV PDF (optional).
