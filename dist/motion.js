@@ -41,7 +41,7 @@
         animation.onfinish = () => running.delete(animation);
       });
     }, { threshold: 0.08 });
-    document.querySelectorAll('.about-grid, .skill-group, .project, .timeline article, .contact-bottom, .section-title')
+    document.querySelectorAll('.about-grid, .tool-card, .project, .timeline article, .contact-bottom, .section-title')
       .forEach(element => observer.observe(element));
   }
 })();
