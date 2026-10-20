@@ -30,6 +30,8 @@ nav,.nav-contact,.button,.text-link,.social-links{font-size:16px}
 .motion-toggle:hover{color:var(--accent);border-color:var(--accent)}
 
 /* Soft ambient movement, entrance motion, and responsive hover feedback. */
+.app-store-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.app-store-links .button{gap:20px;padding:13px 18px;font-size:15px}
 .project-gallery{border:1px solid var(--line);background:#111}
 .gallery-preview{display:block;position:relative;background:#161219}
 .gallery-preview>img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain}
