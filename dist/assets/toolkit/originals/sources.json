@@ -1,0 +1,22 @@
+{
+  "python": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/python/python-original.svg",
+  "java": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/java/java-original.svg",
+  "javascript": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/javascript/javascript-original.svg",
+  "dart": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/dart/dart-original.svg",
+  "html5": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/html5/html5-original.svg",
+  "css3": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/css3/css3-original.svg",
+  "react": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/react/react-original.svg",
+  "flutter": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/flutter/flutter-original.svg",
+  "flask": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/flask/flask-original.svg",
+  "nodejs": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/nodejs/nodejs-original.svg",
+  "express": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/express/express-original.svg",
+  "streamlit": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/streamlit/streamlit-original.svg",
+  "sqlite": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/sqlite/sqlite-original.svg",
+  "git": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/git/git-original.svg",
+  "github": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/github/github-original.svg",
+  "vscode": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/vscode/vscode-original.svg",
+  "androidstudio": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/androidstudio/androidstudio-original.svg",
+  "postman": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/postman/postman-original.svg",
+  "figma": "https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/figma/figma-original.svg",
+  "powerbi": "https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg"
+}
