@@ -1,0 +1,123 @@
+/* Navigation stays visible while the page scrolls. */
+html{scroll-padding-top:155px}
+.header{position:sticky;top:0;z-index:60;background:var(--paper);box-shadow:0 8px 24px #00000012}
+.hero-footer{justify-content:flex-end}
+
+/* Consistent preview sizes and expandable technical details. */
+.project-grid{align-items:stretch}
+.project{display:flex;flex-direction:column;min-width:0}
+.project>.project-gallery{height:390px;flex:none;display:flex;flex-direction:column}
+.project>.project-gallery>.gallery-preview{height:280px;flex:none;min-height:0;padding:0}
+.project>.project-gallery>.gallery-preview>img,
+.project>.project-gallery>.gallery-preview>canvas{width:100%;height:100%;aspect-ratio:auto;object-fit:contain}
+.project>.project-gallery>.gallery-preview>[hidden]{display:none}
+.project-gallery .gallery-choices{height:108px;margin-top:auto;box-sizing:border-box}
+.project-gallery .gallery-choice{min-height:0;padding:6px;gap:4px}
+.project-gallery .gallery-choice img{height:40px;width:65px;object-fit:contain}
+.project-gallery .gallery-choice span{font-size:12px}
+.project>.portrait-gallery .gallery-choice img{height:44px;width:22px}
+.project>.animated-preview .gif-toggle{align-self:flex-start;margin-top:auto;margin-bottom:20px}
+.project>.project-meta{min-height:58px;align-items:flex-start}
+.project>.project-meta h3{line-height:1.4;overflow-wrap:anywhere}
+.project>.project-category{min-height:48px;margin:0 0 12px}
+.project>.project-overview{min-height:110px;margin:0 0 18px}
+.project-more{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 0 22px}
+.project-more>summary{padding:15px 0;cursor:pointer;font-size:14px;color:var(--accent);list-style-position:inside;min-height:48px}
+.project-more>summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.read-less-label{display:none}
+.project-more[open] .read-more-label{display:none}
+.project-more[open] .read-less-label{display:inline}
+.project-more-content{padding:0 0 20px}
+.project-more-content h4{margin-top:12px}
+.project-more-content>.tags:first-child{margin-top:5px}
+.project-actions{margin-top:auto}
+.project-actions:empty{display:none}
+.project-actions .app-store-links{margin-top:0}
+@media(max-width:700px){html{scroll-padding-top:175px}}
+@media(max-width:560px){
+  .project>.project-gallery{height:340px}
+  .project>.project-gallery>.gallery-preview{height:230px}
+  .project>.project-meta{min-height:0;margin-bottom:10px}
+  .project>.project-category,.project>.project-overview{min-height:0}
+  .project>.project-overview{margin-bottom:20px}
+}
+
+/* Keep content within narrow viewports without hiding overflow. */
+img,canvas,svg{max-width:100%}
+.about-grid>*,.project-grid>*,.community-grid>*,.daytah-launch>*,.daytah-purpose>*{min-width:0}
+.tags span,.company,.journey-highlight small{overflow-wrap:anywhere}
+.button,.nav-contact,.data-button,.back-to-portfolio{min-height:44px}
+.text-link{max-width:100%;overflow-wrap:anywhere}
+.text-link span{margin-left:18px}
+.tool-card{min-width:0}
+.gallery-choice{min-width:0}
+.gallery-choice span{overflow-wrap:anywhere}
+@media(max-width:900px){
+  .header{gap:14px}
+  .header nav a{display:inline-flex;align-items:center;min-height:44px}
+  .hero-bottom br.desktop{display:none}
+  .hero-bottom p{max-width:100%}
+}
+@media(max-width:760px){
+  body{padding-right:0;padding-bottom:calc(66px + env(safe-area-inset-bottom,0px))}
+  .social-rail{top:auto;bottom:0;left:0;right:0;width:100%;height:calc(56px + env(safe-area-inset-bottom,0px));padding-bottom:env(safe-area-inset-bottom,0px);flex-direction:row;gap:0;border-left:0;border-top:1px solid var(--line)}
+  .social-rail a{writing-mode:horizontal-tb;justify-content:center;flex:1;min-height:48px;max-width:180px;font-size:11px;letter-spacing:1px;padding:12px}
+  .header{height:auto;min-height:0;padding:12px 20px 5px;gap:5px 12px}
+  .header .wordmark{font-size:20px;flex-shrink:0}
+  .header-actions{margin-left:auto;gap:8px}
+  .header .data-button,.header .nav-contact{font-size:12px;padding:10px 11px}
+  .header .data-button{gap:8px}
+  .header .nav-contact span{margin-left:7px}
+  .header nav{order:3;flex-basis:100%;display:flex;justify-content:space-between;gap:4px;font-size:13px;padding-top:0}
+  html{scroll-padding-top:135px}
+  .wrap{padding-left:22px;padding-right:22px}
+  .about-grid,.project-grid,.community-grid{grid-template-columns:minmax(0,1fr)}
+  .community-card:last-child{grid-column:auto}
+  .portrait-photo{width:100%;max-width:430px;justify-self:center}
+  .hero{padding-top:42px}
+  .hero .eyebrow{font-size:11px;letter-spacing:1px;line-height:1.8;flex-wrap:wrap}
+  .hero h1{font-size:clamp(28px,6.7vw,50px);letter-spacing:-1.4px}
+  .hero .spark{display:none}
+  .hero-bottom{display:block}
+  .hero-bottom .button{margin-top:16px;white-space:normal}
+  .section-title{display:block}
+  .section-title p{margin-top:22px}
+  .community-photo-pair,.founders-photo-pair{grid-template-columns:minmax(0,1fr)}
+  .about-grid{gap:32px}
+  .experience-tags{justify-content:flex-start}
+  .contact h2{font-size:clamp(45px,10vw,70px);letter-spacing:-2px}
+  .contact h2>span{font-size:54px}
+  .contact-bottom{display:block}
+  .timeline .experience-row{grid-template-columns:minmax(0,1fr);gap:15px}
+  .experience-tags{grid-column:1}
+  .project>.project-meta,.project>.project-category,.project>.project-overview{min-height:0}
+  .project>.project-meta{margin-bottom:10px}
+  .project>.project-gallery{height:auto;min-height:0}
+  .project>.project-gallery>.gallery-preview{height:auto;aspect-ratio:16/10}
+  .project>.portrait-gallery>.gallery-preview{aspect-ratio:4/3}
+  .project-gallery .gallery-choices{height:auto;min-height:100px}
+  .project>.animated-preview .gif-toggle{margin:12px;min-height:44px}
+  .section-label{flex-wrap:wrap;gap:10px}
+  .section-label span:last-child{max-width:100%;text-align:left}
+  footer{flex-wrap:wrap;gap:14px;padding-top:25px;padding-bottom:25px}
+  footer .wordmark{flex-basis:100%}
+  footer>a:last-child,.motion-toggle{min-height:44px;display:inline-flex;align-items:center}
+  .motion-toggle[hidden]{display:none}
+}
+@media(max-width:380px){
+  .header{padding-left:14px;padding-right:14px;column-gap:8px}
+  .header .wordmark{font-size:18px}
+  .header .data-button,.header .nav-contact{font-size:11px;padding:8px 9px}
+  .header-actions{gap:7px}
+  .header nav{font-size:12px}
+  .wrap{padding-left:18px;padding-right:18px}
+  .button{gap:18px;padding:14px 18px;font-size:14px}
+  .contact h2>span{font-size:42px}
+  .toolkit-title{font-size:32px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Decorative glyphs are omitted on phones; link labels remain visible. */
+@media(max-width:760px){
+  .mobile-decoration,.spark,.button>span,.nav-contact>span,.data-button>span,.text-link>span,.back-to-portfolio>span,.contact h2>span,.daytah-signature>span[aria-hidden],.community-photo-pair figcaption>span[aria-hidden]{display:none}
+}

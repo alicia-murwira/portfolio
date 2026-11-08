@@ -1,0 +1,36 @@
+.daytah-brand{--paper:#f6faff;--ink:#19365c;--muted:#536780;--line:#d5e2ed;--accent:#317da6;background:var(--paper);color:var(--ink)}
+.daytah-brand .header{border-color:var(--line)}
+.daytah-brand .daytah-header{height:88px;min-height:0;justify-content:flex-start}
+.back-to-portfolio{display:inline-flex;align-items:center;gap:12px;font-size:15px;font-weight:500;padding:12px 0;color:#19365c}
+.back-to-portfolio>span{font-size:22px}
+.back-to-portfolio:hover{color:#317da6;text-decoration:underline;text-underline-offset:5px}
+.daytah-brand .data-button{background:#19365c;border-color:#19365c;color:white;box-shadow:3px 3px 0 #62b4dc}
+.daytah-brand .data-button[aria-current=page]{outline-color:#62b4dc}
+.daytah-brand .nav-contact{border-color:#19365c}
+.daytah-brand .nav-contact:hover{color:#19365c;box-shadow:4px 4px 0 #62b4dc55}
+.daytah-main{padding-top:75px;padding-bottom:75px}
+.daytah-launch{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;gap:60px}
+.launch-label{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:1.7px;font-weight:600}
+.launch-label>span{width:8px;height:8px;background:#4fa8d4;box-shadow:0 0 0 5px #62b4dc20}
+.daytah-copy h1{font-family:Manrope,sans-serif;font-size:clamp(65px,7.5vw,100px);line-height:1.02;letter-spacing:-5px;font-weight:600;margin:30px 0}
+.daytah-copy h1 em{font-family:Georgia,serif;font-weight:400;color:#3587b2}
+.daytah-copy h2{font-size:28px;line-height:1.25;letter-spacing:-.8px;margin:0 0 22px}
+.daytah-copy p{font-size:16px;line-height:1.85;color:var(--muted);max-width:470px}
+.daytah-brand .button{background:#19365c;color:#fff;gap:45px;margin-top:16px}
+.daytah-brand .button:hover{background:#254e7f;box-shadow:5px 5px 0 #62b4dc66}
+.launch-note{display:block;font-size:12px;line-height:1.6;color:var(--muted);margin-top:20px}
+.daytah-visual{position:relative;padding:20px 0}
+.daytah-visual::before{content:"";position:absolute;inset:-35px;background:radial-gradient(ellipse,#62b4dc30,transparent 68%);pointer-events:none;z-index:-1}
+.logo-frame{background:#fff;border:1px solid #d9e6ef;box-shadow:16px 16px 0 #e1eff8;padding:12px}
+.logo-frame img{display:block;width:100%;height:auto}
+.daytah-signature{display:flex;justify-content:space-between;align-items:center;margin:35px 0 0 14px;font-size:11px;letter-spacing:2px}
+.daytah-signature>span:last-child{font-size:26px;color:#3686b1}
+.daytah-purpose{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:35px;border-top:1px solid var(--line);margin-top:75px;padding-top:35px}
+.purpose-number{font-size:13px;letter-spacing:1px;color:#317da6}
+.daytah-purpose h3{font-size:20px;font-weight:600;letter-spacing:-.5px;margin:16px 0 10px}
+.daytah-purpose p{font-size:15px;line-height:1.8;color:var(--muted);margin:0}
+.daytah-brand .motion-toggle:hover{border-color:#317da6;color:#19365c}
+@media(max-width:900px){.daytah-launch{gap:35px}.daytah-copy h1{font-size:72px}.daytah-purpose{gap:25px}.daytah-visual::before{inset:0}}
+@media(max-width:700px){.daytah-main{padding-top:40px;padding-bottom:50px}.daytah-launch{grid-template-columns:1fr;gap:35px}.daytah-copy h1{font-size:76px;letter-spacing:-3px}.daytah-copy p{max-width:100%}.daytah-visual{max-width:430px;width:calc(100% - 16px);justify-self:center;padding:0}.daytah-purpose{grid-template-columns:1fr;gap:25px;margin-top:45px}.daytah-purpose>div{border-bottom:1px solid var(--line);padding-bottom:25px}.daytah-purpose>div:last-child{border:0;padding:0}}
+@media(max-width:380px){.daytah-copy h1{font-size:66px}.launch-label{font-size:10px;letter-spacing:1px}}
+@media(max-width:760px){.daytah-brand .daytah-header{height:70px;padding:10px 22px}.daytah-launch{grid-template-columns:minmax(0,1fr)}.daytah-copy h1{font-size:clamp(58px,12vw,80px)}.launch-label{line-height:1.7}.launch-label>span{flex-shrink:0}.daytah-purpose{grid-template-columns:1fr}.daytah-brand .social-rail{background:#f6faff}.daytah-brand .button{gap:24px}}

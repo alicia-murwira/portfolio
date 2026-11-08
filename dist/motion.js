@@ -1,6 +1,6 @@
 (() => {
   const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const toggle = document.querySelector('.motion-toggle');
+  const toggle = document.querySelector('.motion-toggle:not(.gif-toggle)');
   let paused = preference.matches;
   let observer;
   const running = new Set();
@@ -41,7 +41,7 @@
         animation.onfinish = () => running.delete(animation);
       });
     }, { threshold: 0.08 });
-    document.querySelectorAll('.about-grid, .tool-card, .project, .timeline article, .contact-bottom, .section-title')
+    document.querySelectorAll('.about-grid, .tool-card, .project, .timeline article, .contact-bottom, .section-title, .community-card, .community-story, .community-invite, .data-coming')
       .forEach(element => observer.observe(element));
   }
 })();
