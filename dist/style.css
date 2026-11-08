@@ -129,6 +129,7 @@ nav,.nav-contact,.button,.text-link,.social-links{font-size:16px}
 .tool-logo,.tool-symbol{width:42px;height:42px;object-fit:contain;flex-shrink:0}
 .tool-logo{width:52px;height:52px;filter:none;background:transparent;padding:0}
 .tool-logo-mono{background:#fff;border-radius:8px;padding:6px;box-sizing:border-box}
+.expertise-illustration{width:72px;height:72px;object-fit:contain;flex-shrink:0;filter:none}
 .toolkit-subtitle{font-size:19px;font-weight:500;margin:40px 0 22px;color:var(--accent)}
 @media(hover:hover){.tool-card:hover{transform:translateY(-4px);border-color:#ffbdf75c;background:#171318;color:var(--accent)}}
 @media(max-width:1000px){.tool-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}}
