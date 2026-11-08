@@ -1,0 +1,51 @@
+/* Shared theme controls and palette, loaded after page-specific styles. */
+:root{color-scheme:dark}
+:root[data-theme="light"]{color-scheme:light;--paper:#faf8fc;--ink:#241b2c;--muted:#65596e;--line:#ded5e5;--accent:#843b96}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:44px;min-height:44px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit;font-size:13px;white-space:nowrap;cursor:pointer;flex-shrink:0}
+.theme-toggle[hidden]{display:none}
+.theme-toggle:hover{border-color:var(--accent);color:var(--accent)}
+.theme-toggle:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.theme-toggle svg{width:20px;height:20px;flex:none}
+.theme-moon{display:none}
+[data-theme="light"] .theme-sun{display:none}
+[data-theme="light"] .theme-moon{display:block}
+.header.daytah-header{justify-content:space-between}
+@media(max-width:1250px){.theme-label{display:none}}
+@media(max-width:380px){.header-actions{gap:5px}.theme-toggle{padding:8px}.header .nav-contact{padding-left:6px;padding-right:6px}}
+
+[data-theme="light"] .button{background:var(--accent);color:#fff}
+[data-theme="light"] .button:hover{background:#692b7b}
+[data-theme="light"] .ticker{background:#eed5f0;color:#35233e}
+[data-theme="light"] .tool-card,
+[data-theme="light"] .community-card,
+[data-theme="light"] .journey-highlight{background:#fff;border-color:var(--line);color:var(--muted)}
+[data-theme="light"] .tool-card>span{color:var(--ink)}
+[data-theme="light"] .tool-card:hover,
+[data-theme="light"] .journey-highlight:hover{background:#f3eaf6;border-color:var(--accent)}
+[data-theme="light"] .journey-icon{background:#f3eaf6;border-color:#d8bfdf}
+[data-theme="light"] .skill-list span{border-color:var(--line)}
+[data-theme="light"] .project-gallery,
+[data-theme="light"] .gallery-preview,
+[data-theme="light"] .community-photo-pair a{background:#eee9f1}
+[data-theme="light"] .gallery-choice{background:#fff}
+[data-theme="light"] .gallery-choice.is-selected{background:#f0e1f4}
+[data-theme="light"] .portrait-gallery .gallery-preview{background:radial-gradient(ellipse at top,#f2dff4,#eee9f1)}
+[data-theme="light"] .portrait-photo{border-color:var(--line)}
+/* Keep caption contrast against the photograph's dark overlay. */
+[data-theme="light"] .portrait-caption{border-color:#ffbdf7}
+[data-theme="light"] .portrait-caption>span{color:#ffbdf7}
+[data-theme="light"] .portrait-caption>small{color:#fff}
+[data-theme="light"] .project-cover>span{color:var(--muted)}
+[data-theme="light"] .art-one,[data-theme="light"] .art-two{background:#eee3f2}
+
+/* Data Daytah retains its blue identity in both themes. */
+[data-theme="dark"] .daytah-brand{--paper:#0e1724;--ink:#edf5ff;--muted:#acbfd5;--line:#2b405a;--accent:#83c7e8}
+[data-theme="dark"] .daytah-brand .social-rail{background:var(--paper)}
+[data-theme="dark"] .back-to-portfolio{color:var(--ink)}
+[data-theme="dark"] .daytah-copy h1 em,
+[data-theme="dark"] .purpose-number,
+[data-theme="dark"] .daytah-signature>span:last-child{color:var(--accent)}
+[data-theme="dark"] .daytah-brand .button{background:#83c7e8;color:#102941}
+[data-theme="dark"] .daytah-brand .button:hover{background:#a5d9f2}
+[data-theme="dark"] .logo-frame{border-color:var(--line);box-shadow:16px 16px 0 #1a2b40}
+[data-theme="dark"] .daytah-brand .motion-toggle:hover{color:var(--accent);border-color:var(--accent)}
