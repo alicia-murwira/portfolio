@@ -1,3 +1,5 @@
 # Third-party assets
 
 Technology logos in dist/assets/toolkit are from Devicon v2.17.0 (https://github.com/devicons/devicon), MIT licensed. Brand marks belong to their respective owners.
+
+Power BI logo: Microsoft, https://github.com/microsoft/PowerBI-Icons/blob/main/SVG/Power-BI.svg. Used unmodified under CC BY 4.0; see dist/assets/toolkit/POWERBI-LICENSE.txt. Power BI is a Microsoft trademark.
