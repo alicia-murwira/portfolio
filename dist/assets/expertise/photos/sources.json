@@ -1,0 +1,44 @@
+{
+  "analysis": {
+    "page": "https://unsplash.com/photos/ykgLX_CwtDw",
+    "image": "https://images.unsplash.com/photo-1707157281599-d155d1da5b4c?auto=format&fit=crop&w=960&h=640&q=85&fm=jpg",
+    "photographer": "Jakub Zerdzicki",
+    "license": "https://unsplash.com/license"
+  },
+  "visualisation": {
+    "page": "https://unsplash.com/photos/cGot2jFpKIM",
+    "image": "https://images.unsplash.com/photo-1691643158804-d3f02eb456a3?auto=format&fit=crop&w=960&h=640&q=85&fm=jpg",
+    "photographer": "Yashowardhan Singh",
+    "license": "https://unsplash.com/license"
+  },
+  "dashboard": {
+    "page": "https://unsplash.com/photos/JKUTrJ4vK00",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=960&h=640&q=85&fm=jpg",
+    "photographer": "Luke Chesser",
+    "license": "https://unsplash.com/license"
+  },
+  "mobile": {
+    "page": "https://unsplash.com/photos/2tG1_No-ClE",
+    "image": "https://images.unsplash.com/photo-1761294097893-e9b8fdfca9eb?auto=format&fit=crop&w=960&h=640&q=85&fm=jpg",
+    "photographer": "Airalo",
+    "license": "https://unsplash.com/license"
+  },
+  "web": {
+    "page": "https://unsplash.com/photos/8qEB0fTe9Vw",
+    "image": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=960&h=640&q=85&fm=jpg",
+    "photographer": "Mohammad Rahmani",
+    "license": "https://unsplash.com/license"
+  },
+  "prototyping": {
+    "page": "https://unsplash.com/photos/4UGmm3WRUoQ",
+    "image": "https://images.unsplash.com/photo-1600132806608-231446b2e7af?auto=format&fit=crop&w=960&h=640&q=85&fm=jpg",
+    "photographer": "Compagnons",
+    "license": "https://unsplash.com/license"
+  },
+  "design": {
+    "page": "https://unsplash.com/photos/5aiRb5f464A",
+    "image": "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?auto=format&fit=crop&w=960&h=640&q=85&fm=jpg",
+    "photographer": "Jo Szczepanska",
+    "license": "https://unsplash.com/license"
+  }
+}
